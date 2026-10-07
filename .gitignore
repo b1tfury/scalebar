@@ -1,0 +1,13 @@
+.build/
+build/
+*.xcodeproj
+.swiftpm/
+.DS_Store
+
+# Local data and Garmin login tokens. Never commit these.
+*.db
+*.db-*
+.garminconnect/
+garmin_tokens*
+.env
+.env.*
